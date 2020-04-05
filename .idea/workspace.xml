@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3aec0c1f-f9b9-4d9e-8d01-684500a95458" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/weborder/tests/AbstractBaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/weborder/tests/LoginTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/weborder/tests/SmokTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/weborder/page/AbstractPageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/weborder/page/AbstractBasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/weborder/page/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/weborder/page/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/weborder/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/weborder/utilities/BrowserUtilities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/smaktest.xsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +145,19 @@
       <option name="presentableId" value="Default" />
       <updated>1586103207156</updated>
     </task>
+    <task id="LOCAL-00001" summary="frist commit">
+      <created>1586129964570</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586129964570</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="frist commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="frist commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="468" y="4" key="#Notifications" timestamp="1586120896355">
@@ -164,26 +168,30 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="90" y="151" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1586103507060" />
+    <state x="247" y="0" key="CommitChangelistDialog2" timestamp="1586129963648">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="247" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1586129963648" />
     <state x="75" y="99" key="FileChooserDialogImpl" timestamp="1586115414433">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="75" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1586115414433" />
-    <state width="1238" height="55" key="GridCell.Tab.0.bottom" timestamp="1586123247348">
+    <state width="1238" height="55" key="GridCell.Tab.0.bottom" timestamp="1586130061358">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1238" height="55" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586123247348" />
-    <state width="1238" height="55" key="GridCell.Tab.0.center" timestamp="1586123247347">
+    <state width="1238" height="55" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586130061358" />
+    <state width="1238" height="55" key="GridCell.Tab.0.center" timestamp="1586130061358">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1238" height="55" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586123247347" />
-    <state width="1238" height="55" key="GridCell.Tab.0.left" timestamp="1586123247347">
+    <state width="1238" height="55" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586130061358" />
+    <state width="1238" height="55" key="GridCell.Tab.0.left" timestamp="1586130061358">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1238" height="55" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586123247347" />
-    <state width="1238" height="55" key="GridCell.Tab.0.right" timestamp="1586123247348">
+    <state width="1238" height="55" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586130061358" />
+    <state width="1238" height="55" key="GridCell.Tab.0.right" timestamp="1586130061358">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1238" height="55" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586123247348" />
+    <state width="1238" height="55" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586130061358" />
     <state x="4" y="0" key="Maven.ArtifactSearchDialog" timestamp="1586104632888">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -192,6 +200,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="0" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1586115439611" />
+    <state x="233" y="76" key="Vcs.Push.Dialog.v2" timestamp="1586129967182">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="76" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1586129967182" />
     <state x="301" y="91" width="672" height="678" key="search.everywhere.popup" timestamp="1586115421808">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
