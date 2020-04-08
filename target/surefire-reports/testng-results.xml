@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-07T20:40:00Z" name="Smoke" finished-at="2020-04-07T20:40:31Z" duration-ms="31262">
+    <groups>
+    </groups>
+    <test started-at="2020-04-07T20:40:00Z" name="Smoke test" finished-at="2020-04-07T20:40:31Z" duration-ms="31262">
+      <class name="com.weborder.tests.Smoketest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.weborder.tests.Smoketest@66971f6b]" started-at="2020-04-07T20:40:00Z" name="beforeTest" finished-at="2020-04-07T20:40:00Z" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.weborder.tests.Smoketest@66971f6b]" started-at="2020-04-07T20:40:00Z" name="setup" finished-at="2020-04-07T20:40:01Z" duration-ms="1781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="smokeTest(java.lang.String, java.lang.String)[pri:0, instance:com.weborder.tests.Smoketest@66971f6b]" started-at="2020-04-07T20:40:01Z" name="smokeTest" data-provider="smokeTestData" finished-at="2020-04-07T20:40:05Z" duration-ms="3900" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[View all orders]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[List of All Orders]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smokeTest -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.weborder.tests.Smoketest@66971f6b]" started-at="2020-04-07T20:40:05Z" name="teardown" finished-at="2020-04-07T20:40:09Z" duration-ms="3647" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=smokeTest status=SUCCESS method=Smoketest.smokeTest(java.lang.String, java.lang.String)[pri:0, instance:com.weborder.tests.Smoketest@66971f6b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.weborder.tests.Smoketest@66971f6b]" started-at="2020-04-07T20:40:09Z" name="setup" finished-at="2020-04-07T20:40:13Z" duration-ms="3949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="smokeTest(java.lang.String, java.lang.String)[pri:0, instance:com.weborder.tests.Smoketest@66971f6b]" started-at="2020-04-07T20:40:13Z" name="smokeTest" data-provider="smokeTestData" finished-at="2020-04-07T20:40:16Z" duration-ms="3074" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[View all products]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[List of Products]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smokeTest -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.weborder.tests.Smoketest@66971f6b]" started-at="2020-04-07T20:40:16Z" name="teardown" finished-at="2020-04-07T20:40:20Z" duration-ms="3675" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=smokeTest status=SUCCESS method=Smoketest.smokeTest(java.lang.String, java.lang.String)[pri:0, instance:com.weborder.tests.Smoketest@66971f6b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.weborder.tests.Smoketest@66971f6b]" started-at="2020-04-07T20:40:20Z" name="setup" finished-at="2020-04-07T20:40:24Z" duration-ms="3978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="smokeTest(java.lang.String, java.lang.String)[pri:0, instance:com.weborder.tests.Smoketest@66971f6b]" started-at="2020-04-07T20:40:24Z" name="smokeTest" data-provider="smokeTestData" finished-at="2020-04-07T20:40:27Z" duration-ms="3102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Order]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Order]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smokeTest -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.weborder.tests.Smoketest@66971f6b]" started-at="2020-04-07T20:40:27Z" name="teardown" finished-at="2020-04-07T20:40:30Z" duration-ms="3678" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=smokeTest status=SUCCESS method=Smoketest.smokeTest(java.lang.String, java.lang.String)[pri:0, instance:com.weborder.tests.Smoketest@66971f6b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.weborder.tests.Smoketest@66971f6b]" started-at="2020-04-07T20:40:30Z" name="afterTest" finished-at="2020-04-07T20:40:31Z" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.weborder.tests.Smoketest -->
+    </test> <!-- Smoke test -->
+  </suite> <!-- Smoke -->
+</testng-results>

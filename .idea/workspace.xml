@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3aec0c1f-f9b9-4d9e-8d01-684500a95458" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smoketest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/weborder/tests/SmokTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/weborder/tests/Smoketest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/weborder/utilities/ConfigurationReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/weborder/utilities/ConfigurationReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webdriverotomation2020.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +45,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/weborder" />
@@ -56,17 +64,11 @@
       <recent name="C:\Users\AAA\IdeaProjects\webdriverotomation2020\src\test\java\com\weborder\utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SmokTest">
-    <configuration name="LoginTests (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.weborder.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="com.weborder.tests.LoginTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
+  <component name="RunManager" selected="TestNG.C:/Users/AAA/IdeaProjects/webdriverotomation2020/smoketest.xml">
+    <configuration name="C:/Users/AAA/IdeaProjects/webdriverotomation2020/smoketest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="webdriverotomation2020" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/smoketest.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -82,6 +84,22 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.weborder.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.weborder.tests.LoginTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.weborder.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="com.weborder.tests.LoginTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
@@ -108,7 +126,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmokTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Smoketest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="webdriverotomation2020" />
       <extension name="coverage">
         <pattern>
@@ -117,7 +135,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.weborder.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.weborder.tests.SmokTest" />
+      <option name="MAIN_CLASS_NAME" value="com.weborder.tests.Smoketest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -127,10 +145,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SmokTest" />
-        <item itemvalue="TestNG.LoginTests.login" />
-        <item itemvalue="TestNG.LoginTests (1)" />
+        <item itemvalue="TestNG.C:/Users/AAA/IdeaProjects/webdriverotomation2020/smoketest.xml" />
         <item itemvalue="TestNG.LoginTests" />
+        <item itemvalue="TestNG.Smoketest" />
+        <item itemvalue="TestNG.LoginTests.login" />
       </list>
     </recent_temporary>
   </component>
@@ -152,46 +170,59 @@
       <option name="project" value="LOCAL" />
       <updated>1586129964570</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="frist">
+      <created>1586130096118</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586130096118</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="frist commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="frist commit" />
+    <MESSAGE value="frist" />
+    <option name="LAST_COMMIT_MESSAGE" value="frist" />
   </component>
   <component name="WindowStateProjectService">
     <state x="468" y="4" key="#Notifications" timestamp="1586120896355">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="468" y="4" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1586120896355" />
-    <state x="90" y="151" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586103507060">
+    <state x="90" y="151" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586161589383">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="90" y="151" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1586103507060" />
-    <state x="247" y="0" key="CommitChangelistDialog2" timestamp="1586129963648">
+    <state x="90" y="151" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1586161589383" />
+    <state x="371" y="90" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586147470296">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="247" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1586129963648" />
-    <state x="75" y="99" key="FileChooserDialogImpl" timestamp="1586115414433">
+    <state x="371" y="90" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1586147470296" />
+    <state x="247" y="0" key="CommitChangelistDialog2" timestamp="1586130095455">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="75" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1586115414433" />
-    <state width="1238" height="55" key="GridCell.Tab.0.bottom" timestamp="1586130061358">
+    <state x="247" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1586130095455" />
+    <state x="75" y="99" key="FileChooserDialogImpl" timestamp="1586138054443">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1238" height="55" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586130061358" />
-    <state width="1238" height="55" key="GridCell.Tab.0.center" timestamp="1586130061358">
+    <state x="75" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1586138054443" />
+    <state width="1238" height="73" key="GridCell.Tab.0.bottom" timestamp="1586162182239">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1238" height="55" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586130061358" />
-    <state width="1238" height="55" key="GridCell.Tab.0.left" timestamp="1586130061358">
+    <state width="1238" height="73" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586162182239" />
+    <state width="1238" height="73" key="GridCell.Tab.0.center" timestamp="1586162182239">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1238" height="55" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586130061358" />
-    <state width="1238" height="55" key="GridCell.Tab.0.right" timestamp="1586130061358">
+    <state width="1238" height="73" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586162182239" />
+    <state width="1238" height="73" key="GridCell.Tab.0.left" timestamp="1586162182239">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1238" height="55" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586130061358" />
+    <state width="1238" height="73" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586162182239" />
+    <state width="1238" height="73" key="GridCell.Tab.0.right" timestamp="1586162182239">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1238" height="73" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586162182239" />
     <state x="4" y="0" key="Maven.ArtifactSearchDialog" timestamp="1586104632888">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -200,10 +231,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="0" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1586115439611" />
-    <state x="233" y="76" key="Vcs.Push.Dialog.v2" timestamp="1586129967182">
+    <state x="233" y="76" key="Vcs.Push.Dialog.v2" timestamp="1586130098259">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="76" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1586129967182" />
+    <state x="233" y="76" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1586130098259" />
+    <state x="65" y="44" key="new project wizard" timestamp="1586378064952">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="65" y="44" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1586378064952" />
     <state x="301" y="91" width="672" height="678" key="search.everywhere.popup" timestamp="1586115421808">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

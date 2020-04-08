@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;
 
-public class SmokTest extends AbstractBaseTest {
+public class Smoketest extends AbstractBaseTest {
 
     @Test(dataProvider = "smokeTestData")
     public void smokeTest(String component, String expectedPageSubTitle) {
